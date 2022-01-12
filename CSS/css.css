@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: width 2s;
+}
+
+.meve {
+    background-color: tomato;
+    width: 180;
+    font-size: 20;
+    height: 50;
+    border: solid 4px tomato;
+    box-shadow: 0 4px 12px tomato;
+    border-radius: 4px;
+}
+
+.meve:hover {
+    background-color: white;
+}
+
+.wold {
+    width: auto;
+    margin: auto;
+    height: auto;
+    list-style: none;
+    list-style-type: none;
+}
+
+.button {
+    width: 15px;
+    height: 150;
+    position: relative;
+}
+
+.transbox {
+    width: 750px;
+    position: relative;
+    height: 200px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 30;
+    margin-left: 600;
+    background-color: tomato;
+    opacity: 0.8;
+    font-size: 25;
+    filter: alpha(opacity=80);
+}
+
+.transboxx {
+    font-size: 40;
+    color: white;
+    font-family: cursive;
+}
+
+.img {
+    pointer-events: none;
+    margin-top: -415;
+    position: absolute;
+}
+
+.img2 {
+    pointer-events: none;
+    margin-top: -55;
+    margin-left: 400;
+    position: absolute;
+}
+
+.bnnr {
+    width: auto;
+    height: 105;
+    box-shadow: 0 4px 12px white;
+    margin: auto;
+}
+
+.rsm {
+    width: auto;
+    height: auto;
+}
+
+.textyt {
+    width: auto;
+    color: grey;
+    font-family: arial;
+    position: relative;
+    height: 30px;
+    margin-top: 150;
+    font-size: 23;
+    text-align: center;
+    background-color: white;
+}
+
+.boxv1 {
+    width: 350;
+    margin-top: 15;
+    margin-top: 150;
+    margin-left: 400;
+    height: 450;
+    float: left;
+    background-color: #f2f2f2;
+}
+
+.boxv2 {
+    width: 350;
+    margin-top: 150;
+    float: left;
+    margin-left: 390;
+    height: 450;
+    background-color: #f2f2f2;
+}
+
+.boxv3 {
+    width: 350;
+    margin-top: 150;
+    margin-left: 770;
+    height: 450;
+    background-color: #f2f2f2;
+}
+
+.bnnr ul {
+    height: 20px;
+    margin-left: 900px;
+    margin-top: -85px;
+    list-style: none;
+}
+
+.bnnr li {
+    display: inline;
+}
+
+.bnnr a {
+    display: block;
+    float: left;
+    height: 30px;
+    padding: 10px 15px 15px 15px;
+    text-decoration: none;
+    font-family: arial black;
+    color: black;
+}
+
+.bnnr a:hover {
+    color: coral;
+}
+
+.bnnr a b {
+    text-decoration: underline;
+}
+
+
+/* 7. Testimonials */
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+.testimonials-area:before {
+    content: "";
+    background-color: #131419;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.testimonials-main-content {
+    cursor: e-resize;
+}
